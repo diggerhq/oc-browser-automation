@@ -1,0 +1,6 @@
+node_modules/
+dist/
+artefacts/
+.DS_Store
+*.log
+config.bat

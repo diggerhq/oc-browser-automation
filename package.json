@@ -1,0 +1,22 @@
+{
+  "name": "libretto-oc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build-snapshot": "tsx build-snapshot.ts",
+    "launch": "tsx launch.ts",
+    "otaco": "tsx otaco.ts",
+    "run": "tsx run.ts"
+  },
+  "dependencies": {
+    "@opencomputer/sdk": "^0.5.16"
+  },
+  "devDependencies": {
+    "@hono/node-server": "^1.13.0",
+    "@types/node": "^22.0.0",
+    "hono": "^4.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.4.0"
+  }
+}
